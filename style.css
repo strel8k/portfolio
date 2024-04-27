@@ -98,6 +98,13 @@ nav button#menuButton{
     justify-content: space-between;
     gap: 40px;
 }
+/*
+.blur {
+    position: absolute;
+    box-shadow: 0 0 1000px 100px #000000;
+    z-index: -100;
+}
+*/
 
 .main .left{
     display: flex;
@@ -181,7 +188,8 @@ nav button#menuButton{
 }
 
 .about{
-    padding: 110px;
+    padding-top: 50px;
+    padding-bottom: 110px;
     display: flex;
     align-items: center;
     gap: 60px;
@@ -230,6 +238,7 @@ footer .bottom .links{
 }
 
 .pp {
+    padding: 40px;
     margin-top: 150px;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -347,7 +356,8 @@ footer .bottom .links{
     }
 
     .about{
-        padding: 85px 42px;
+        padding-top: 50px;
+        padding-bottom: 110px;
     }
 
 
