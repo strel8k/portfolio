@@ -206,10 +206,6 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
-    font-family: 'Roboto', sans-serif;
-}
-
 h3 {
     font-family: "Ubuntu", sans-serif;
 }
@@ -289,20 +285,26 @@ h3 {
 }
 
 .about .right p{
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-me-container {
+    margin-top: 50px;
     width: auto;
     height: auto;
     background-color: #c2eedb;
-    padding: 20px;
+    padding: 50px;
     border-radius: 20px;
+    transition: transform 0.4s; 
+}
+
+.about-me-container:hover {
+    transform: scale(1.05);
 }
 
 footer{
     background-color: #c2eedb;
-    padding: 85px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -311,7 +313,7 @@ footer .top,
 footer .bottom{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 footer .bottom p{
@@ -331,6 +333,8 @@ footer .bottom .links{
     gap: 30px;
     font-size: 12px;
     margin-left: 14px;
+    align-items: center;
+    justify-content: center;
 }
 
 .pp {
