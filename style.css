@@ -306,6 +306,12 @@ h3 {
     transform: scale(1.05);
 }
 
+.downloadCalc {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+
 footer{
     background-color: #c2eedb;
     padding: 50px;
