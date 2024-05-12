@@ -181,9 +181,12 @@ nav button#menuButton{
     transition: transform 0.3s; 
 }
 
-.main .left h5:hover,
-.main .left h3:hover {
+.main .left h5:hover {
     transform: scale(1.1);
+}
+
+.main .left h3:hover {
+    transform: scaleX(1.1);
 }
 
 .main .left h3{
